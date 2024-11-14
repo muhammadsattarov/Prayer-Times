@@ -10,10 +10,18 @@ import UIKit
 
 class DuolarViewController: UIViewController {
 
+  lazy var backgroundImage: UIImageView = {
+    $0.translatesAutoresizingMaskIntoConstraints = false
+    $0.image = UIImage(named: "whiteFon2")
+    $0.contentMode = .scaleAspectFill
+    $0.clipsToBounds = true
+    return $0
+  }(UIImageView())
+
   private let tableView: UITableView = {
     $0.register(ListViewTableViewCell.self,
                 forCellReuseIdentifier: ListViewTableViewCell.reuseId)
-    $0.backgroundColor = .white
+    $0.backgroundColor = .clear
     $0.separatorStyle = .none
     return $0
   }(UITableView())
@@ -29,11 +37,12 @@ private var duolar = ["Sa'no duosi",
   override func viewDidLoad() {
     super.viewDidLoad()
     setupViews()
+    setConstrains()
   }
 
   private func setupViews() {
-    view.backgroundColor = .systemBackground
     navigationItem.title = "Duolar"
+    view.addSubview(backgroundImage)
     view.addSubview(tableView)
     tableView.delegate = self
     tableView.dataSource = self
@@ -61,22 +70,36 @@ extension DuolarViewController: UITableViewDelegate, UITableViewDataSource {
   }
 
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let vc = DuolarTextViewController()
     let section = Duolar(rawValue: indexPath.row)
     switch section {
     case .sano:
-      <#code#>
+      vc.headerText = Duolar.sano.description
     case .salovat:
-      <#code#>
+      vc.headerText = Duolar.salovat.description
     case .robbana:
-      <#code#>
+      vc.headerText = Duolar.robbana.description
     case .attahiyat:
-      <#code#>
+      vc.headerText = Duolar.attahiyat.description
     case .qunut:
-      <#code#>
+      vc.headerText = Duolar.qunut.description
     case .vitr:
-      <#code#>
+      vc.headerText = Duolar.vitr.description
     case nil:
-      <#code#>
+      break
     }
+    vc.title = duolar[indexPath.row]
+    navigationController?.pushViewController(vc, animated: true)
+  }
+}
+
+private extension DuolarViewController {
+  func setConstrains() {
+    NSLayoutConstraint.activate([
+      backgroundImage.topAnchor.constraint(equalTo: view.topAnchor),
+      backgroundImage.leftAnchor.constraint(equalTo: view.leftAnchor),
+      backgroundImage.rightAnchor.constraint(equalTo: view.rightAnchor),
+      backgroundImage.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+    ])
   }
 }

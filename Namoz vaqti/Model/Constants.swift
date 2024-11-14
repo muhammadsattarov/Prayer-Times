@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct Constants {
+  static let baseUrl = "https://api.aladhan.com"
+}

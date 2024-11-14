@@ -10,10 +10,18 @@ import UIKit
 
 class SuralarViewController: UIViewController {
 
+  lazy var backgroundImage: UIImageView = {
+    $0.translatesAutoresizingMaskIntoConstraints = false
+    $0.image = UIImage(named: "whiteFon2")
+    $0.contentMode = .scaleAspectFill
+    $0.clipsToBounds = true
+    return $0
+  }(UIImageView())
+
   private let tableView: UITableView = {
     $0.register(ListViewTableViewCell.self,
                 forCellReuseIdentifier: ListViewTableViewCell.reuseId)
-    $0.backgroundColor = .white
+    $0.backgroundColor = .clear
     $0.separatorStyle = .none
     return $0
   }(UITableView())
@@ -28,11 +36,12 @@ class SuralarViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     setupViews()
+    setConstrains()
   }
 
   private func setupViews() {
-    view.backgroundColor = .systemBackground
     navigationItem.title = "Suralar"
+    view.addSubview(backgroundImage)
     view.addSubview(tableView)
     tableView.delegate = self
     tableView.dataSource = self
@@ -83,5 +92,16 @@ extension SuralarViewController: UITableViewDelegate, UITableViewDataSource {
     }
     vc.title = suralar[indexPath.row]
     navigationController?.pushViewController(vc, animated: true)
+  }
+}
+
+private extension SuralarViewController {
+  func setConstrains() {
+    NSLayoutConstraint.activate([
+      backgroundImage.topAnchor.constraint(equalTo: view.topAnchor),
+      backgroundImage.leftAnchor.constraint(equalTo: view.leftAnchor),
+      backgroundImage.rightAnchor.constraint(equalTo: view.rightAnchor),
+      backgroundImage.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+    ])
   }
 }

@@ -1,0 +1,6 @@
+framework module Pods_Namoz_vaqti {
+  umbrella header "Pods-Namoz vaqti-umbrella.h"
+
+  export *
+  module * { export * }
+}

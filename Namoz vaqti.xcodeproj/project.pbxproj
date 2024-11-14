@@ -7,23 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69135691F467479E4A42FE32 /* Pods_Namoz_vaqti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3F15745FF662A567C41B70 /* Pods_Namoz_vaqti.framework */; };
+		CE0381E62C2AD35E007E8E3D /* TimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0381E52C2AD35E007E8E3D /* TimesViewController.swift */; };
+		CE0381E82C2AD380007E8E3D /* NamozViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0381E72C2AD380007E8E3D /* NamozViewController.swift */; };
+		CE0381EA2C2AD38F007E8E3D /* TahoratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0381E92C2AD38F007E8E3D /* TahoratViewController.swift */; };
+		CE0381EC2C2AD3AD007E8E3D /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0381EB2C2AD3AD007E8E3D /* QuestionsViewController.swift */; };
+		CE0381F02C2AD8A0007E8E3D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0381EF2C2AD8A0007E8E3D /* ListViewController.swift */; };
+		CE0381F32C2ADD10007E8E3D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0381F22C2ADD10007E8E3D /* UIColor+Extension.swift */; };
+		CE0381F62C2AEB85007E8E3D /* TimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0381F52C2AEB84007E8E3D /* TimeTableViewCell.swift */; };
+		CE0381F92C2AEDB1007E8E3D /* NamozTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0381F82C2AEDB1007E8E3D /* NamozTimes.swift */; };
+		CE0381FC2C2AF9C9007E8E3D /* TimeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0381FB2C2AF9C9007E8E3D /* TimeHeaderView.swift */; };
+		CE0382042C2B0917007E8E3D /* DuolarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0382032C2B0917007E8E3D /* DuolarViewController.swift */; };
+		CE0382062C2B0924007E8E3D /* SuralarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0382052C2B0924007E8E3D /* SuralarViewController.swift */; };
+		CE0382082C2B0968007E8E3D /* ListViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0382072C2B0968007E8E3D /* ListViewTableViewCell.swift */; };
+		CE33F17F2C38394700F1701F /* DuolarTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33F17E2C38394700F1701F /* DuolarTextViewController.swift */; };
+		CE33F1832C3915D100F1701F /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33F1822C3915D100F1701F /* QuestionTableViewCell.swift */; };
+		CE33F1852C391DD600F1701F /* QuestionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33F1842C391DD600F1701F /* QuestionHeaderView.swift */; };
+		CE3C06CD2CA13B75009304FF /* TimesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C06CC2CA13B75009304FF /* TimesViewModel.swift */; };
+		CE3C06CF2CA1BF1B009304FF /* TimeInterval+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C06CE2CA1BF1B009304FF /* TimeInterval+.swift */; };
+		CE4316D42C328D46005812D3 /* SuralarTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4316D32C328D46005812D3 /* SuralarTextViewController.swift */; };
+		CE4316D62C32DF8B005812D3 /* TahoratTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4316D52C32DF8B005812D3 /* TahoratTableViewCell.swift */; };
+		CE4316DE2C332713005812D3 /* UIImage+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4316DD2C332713005812D3 /* UIImage+Ex.swift */; };
+		CE4316F52C332AE1005812D3 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE4316F02C332AE0005812D3 /* 0.mp3 */; };
+		CE4316F62C332AE1005812D3 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE4316F12C332AE0005812D3 /* 4.mp3 */; };
+		CE4316F72C332AE1005812D3 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE4316F22C332AE0005812D3 /* 1.mp3 */; };
+		CE4316F82C332AE1005812D3 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE4316F32C332AE0005812D3 /* 3.mp3 */; };
+		CE4316F92C332AE1005812D3 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE4316F42C332AE1005812D3 /* 2.mp3 */; };
+		CE4317032C332B00005812D3 /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316FA2C332AFF005812D3 /* 7.gif */; };
+		CE4317042C332B00005812D3 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316FB2C332AFF005812D3 /* 4.gif */; };
+		CE4317052C332B00005812D3 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316FC2C332AFF005812D3 /* 5.gif */; };
+		CE4317062C332B00005812D3 /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316FD2C332AFF005812D3 /* 9.gif */; };
+		CE4317072C332B00005812D3 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316FE2C332B00005812D3 /* 6.gif */; };
+		CE4317082C332B00005812D3 /* 8.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316FF2C332B00005812D3 /* 8.gif */; };
+		CE4317092C332B00005812D3 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4317002C332B00005812D3 /* 3.gif */; };
+		CE43170A2C332B00005812D3 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4317012C332B00005812D3 /* 2.gif */; };
+		CE43170B2C332B00005812D3 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4317022C332B00005812D3 /* 1.gif */; };
+		CE5FFADB2C34739D0058D69E /* 3b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316E62C332989005812D3 /* 3b.gif */; };
+		CE5FFADC2C3473AD0058D69E /* 6b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316EB2C332989005812D3 /* 6b.gif */; };
+		CE5FFADD2C3473AD0058D69E /* 9b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316EA2C332989005812D3 /* 9b.gif */; };
+		CE5FFADE2C3473AD0058D69E /* 13b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316E12C332989005812D3 /* 13b.gif */; };
+		CE5FFADF2C3473AD0058D69E /* 2b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316E72C332989005812D3 /* 2b.gif */; };
+		CE5FFAE02C3473AD0058D69E /* 1b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316E42C332989005812D3 /* 1b.gif */; };
+		CE5FFAE12C3473AD0058D69E /* 10b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316E32C332989005812D3 /* 10b.gif */; };
+		CE5FFAE22C3473AD0058D69E /* 5b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316E22C332989005812D3 /* 5b.gif */; };
+		CE5FFAE32C3473AD0058D69E /* 11b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316E92C332989005812D3 /* 11b.gif */; };
+		CE5FFAE42C3473AD0058D69E /* 12b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316DF2C332989005812D3 /* 12b.gif */; };
+		CE5FFAE52C3473AD0058D69E /* 4b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316E82C332989005812D3 /* 4b.gif */; };
+		CE5FFAE62C3473AD0058D69E /* 7b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316E52C332989005812D3 /* 7b.gif */; };
+		CE5FFAE72C3473AD0058D69E /* 8b.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE4316E02C332989005812D3 /* 8b.gif */; };
+		CE73CDD72C2FEF3500DED330 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDD62C2FEF3500DED330 /* Constants.swift */; };
+		CE73CDDD2C2FF67700DED330 /* NamazTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDDC2C2FF67700DED330 /* NamazTimes.swift */; };
+		CE73CDDF2C2FFB7600DED330 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDDE2C2FFB7600DED330 /* LocationService.swift */; };
+		CE73CDE32C30493100DED330 /* NamozTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDE22C30493000DED330 /* NamozTextTableViewCell.swift */; };
+		CE73CDE62C304D4E00DED330 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDE52C304D4E00DED330 /* Questions.swift */; };
+		CE73CDE82C304FE200DED330 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDE72C304FE200DED330 /* UIImageView+Extension.swift */; };
+		CE73CDEC2C3053DF00DED330 /* PeshinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDEB2C3053DF00DED330 /* PeshinViewController.swift */; };
+		CE73CDEE2C3053FE00DED330 /* AsrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDED2C3053FE00DED330 /* AsrViewController.swift */; };
+		CE73CDF02C30541700DED330 /* ShomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDEF2C30541700DED330 /* ShomViewController.swift */; };
+		CE73CDF22C30542B00DED330 /* HuftonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDF12C30542B00DED330 /* HuftonViewController.swift */; };
+		CE73CDF42C3055AE00DED330 /* TahoratTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDF32C3055AE00DED330 /* TahoratTexts.swift */; };
+		CE73CDF62C30561300DED330 /* Suralar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDF52C30561300DED330 /* Suralar.swift */; };
+		CE73CDF82C30564B00DED330 /* NamozTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDF72C30564B00DED330 /* NamozTexts.swift */; };
+		CE73CDFA2C30567D00DED330 /* Duolar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73CDF92C30567D00DED330 /* Duolar.swift */; };
+		CE76B9032C6BAF59004ED32B /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76B9022C6BAF59004ED32B /* UIButton+Extension.swift */; };
+		CE869D212C36D3850004F93F /* NamozHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE869D202C36D3850004F93F /* NamozHeaderView.swift */; };
+		CE869D232C36E4730004F93F /* NamazHeaderTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE869D222C36E4730004F93F /* NamazHeaderTexts.swift */; };
 		CEC4F60B2C2AC90F0037BB5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F60A2C2AC90F0037BB5B /* AppDelegate.swift */; };
 		CEC4F60D2C2AC90F0037BB5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F60C2C2AC90F0037BB5B /* SceneDelegate.swift */; };
-		CEC4F60F2C2AC90F0037BB5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F60E2C2AC90F0037BB5B /* ViewController.swift */; };
-		CEC4F6122C2AC90F0037BB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC4F6102C2AC90F0037BB5B /* Main.storyboard */; };
+		CEC4F60F2C2AC90F0037BB5B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F60E2C2AC90F0037BB5B /* MainTabBarController.swift */; };
 		CEC4F6142C2AC9110037BB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC4F6132C2AC9110037BB5B /* Assets.xcassets */; };
 		CEC4F6172C2AC9110037BB5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC4F6152C2AC9110037BB5B /* LaunchScreen.storyboard */; };
+		CEECB6F22C2EC1D400697A99 /* BomdodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECB6F12C2EC1D400697A99 /* BomdodViewController.swift */; };
+		CEECB6F42C2EC34F00697A99 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECB6F32C2EC34F00697A99 /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD3DA6BA8862B0153DEA30A5 /* Pods-Namoz vaqti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namoz vaqti.debug.xcconfig"; path = "Target Support Files/Pods-Namoz vaqti/Pods-Namoz vaqti.debug.xcconfig"; sourceTree = "<group>"; };
+		BD3F15745FF662A567C41B70 /* Pods_Namoz_vaqti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Namoz_vaqti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0381E52C2AD35E007E8E3D /* TimesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesViewController.swift; sourceTree = "<group>"; };
+		CE0381E72C2AD380007E8E3D /* NamozViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamozViewController.swift; sourceTree = "<group>"; };
+		CE0381E92C2AD38F007E8E3D /* TahoratViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahoratViewController.swift; sourceTree = "<group>"; };
+		CE0381EB2C2AD3AD007E8E3D /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		CE0381EF2C2AD8A0007E8E3D /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CE0381F22C2ADD10007E8E3D /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CE0381F52C2AEB84007E8E3D /* TimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewCell.swift; sourceTree = "<group>"; };
+		CE0381F82C2AEDB1007E8E3D /* NamozTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamozTimes.swift; sourceTree = "<group>"; };
+		CE0381FB2C2AF9C9007E8E3D /* TimeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeHeaderView.swift; sourceTree = "<group>"; };
+		CE0382032C2B0917007E8E3D /* DuolarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuolarViewController.swift; sourceTree = "<group>"; };
+		CE0382052C2B0924007E8E3D /* SuralarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuralarViewController.swift; sourceTree = "<group>"; };
+		CE0382072C2B0968007E8E3D /* ListViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTableViewCell.swift; sourceTree = "<group>"; };
+		CE33F17E2C38394700F1701F /* DuolarTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuolarTextViewController.swift; sourceTree = "<group>"; };
+		CE33F1822C3915D100F1701F /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		CE33F1842C391DD600F1701F /* QuestionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionHeaderView.swift; sourceTree = "<group>"; };
+		CE3C06CC2CA13B75009304FF /* TimesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesViewModel.swift; sourceTree = "<group>"; };
+		CE3C06CE2CA1BF1B009304FF /* TimeInterval+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+.swift"; sourceTree = "<group>"; };
+		CE4316D32C328D46005812D3 /* SuralarTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuralarTextViewController.swift; sourceTree = "<group>"; };
+		CE4316D52C32DF8B005812D3 /* TahoratTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahoratTableViewCell.swift; sourceTree = "<group>"; };
+		CE4316DD2C332713005812D3 /* UIImage+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ex.swift"; sourceTree = "<group>"; };
+		CE4316DF2C332989005812D3 /* 12b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 12b.gif; sourceTree = "<group>"; };
+		CE4316E02C332989005812D3 /* 8b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 8b.gif; sourceTree = "<group>"; };
+		CE4316E12C332989005812D3 /* 13b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 13b.gif; sourceTree = "<group>"; };
+		CE4316E22C332989005812D3 /* 5b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5b.gif; sourceTree = "<group>"; };
+		CE4316E32C332989005812D3 /* 10b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 10b.gif; sourceTree = "<group>"; };
+		CE4316E42C332989005812D3 /* 1b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1b.gif; sourceTree = "<group>"; };
+		CE4316E52C332989005812D3 /* 7b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 7b.gif; sourceTree = "<group>"; };
+		CE4316E62C332989005812D3 /* 3b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3b.gif; sourceTree = "<group>"; };
+		CE4316E72C332989005812D3 /* 2b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2b.gif; sourceTree = "<group>"; };
+		CE4316E82C332989005812D3 /* 4b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4b.gif; sourceTree = "<group>"; };
+		CE4316E92C332989005812D3 /* 11b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11b.gif; sourceTree = "<group>"; };
+		CE4316EA2C332989005812D3 /* 9b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 9b.gif; sourceTree = "<group>"; };
+		CE4316EB2C332989005812D3 /* 6b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6b.gif; sourceTree = "<group>"; };
+		CE4316F02C332AE0005812D3 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		CE4316F12C332AE0005812D3 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		CE4316F22C332AE0005812D3 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		CE4316F32C332AE0005812D3 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		CE4316F42C332AE1005812D3 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		CE4316FA2C332AFF005812D3 /* 7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 7.gif; sourceTree = "<group>"; };
+		CE4316FB2C332AFF005812D3 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		CE4316FC2C332AFF005812D3 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
+		CE4316FD2C332AFF005812D3 /* 9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 9.gif; sourceTree = "<group>"; };
+		CE4316FE2C332B00005812D3 /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6.gif; sourceTree = "<group>"; };
+		CE4316FF2C332B00005812D3 /* 8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 8.gif; sourceTree = "<group>"; };
+		CE4317002C332B00005812D3 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		CE4317012C332B00005812D3 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		CE4317022C332B00005812D3 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		CE73CDD62C2FEF3500DED330 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE73CDDC2C2FF67700DED330 /* NamazTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamazTimes.swift; sourceTree = "<group>"; };
+		CE73CDDE2C2FFB7600DED330 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		CE73CDE22C30493000DED330 /* NamozTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamozTextTableViewCell.swift; sourceTree = "<group>"; };
+		CE73CDE52C304D4E00DED330 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		CE73CDE72C304FE200DED330 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		CE73CDEB2C3053DF00DED330 /* PeshinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeshinViewController.swift; sourceTree = "<group>"; };
+		CE73CDED2C3053FE00DED330 /* AsrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsrViewController.swift; sourceTree = "<group>"; };
+		CE73CDEF2C30541700DED330 /* ShomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShomViewController.swift; sourceTree = "<group>"; };
+		CE73CDF12C30542B00DED330 /* HuftonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuftonViewController.swift; sourceTree = "<group>"; };
+		CE73CDF32C3055AE00DED330 /* TahoratTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahoratTexts.swift; sourceTree = "<group>"; };
+		CE73CDF52C30561300DED330 /* Suralar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suralar.swift; sourceTree = "<group>"; };
+		CE73CDF72C30564B00DED330 /* NamozTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamozTexts.swift; sourceTree = "<group>"; };
+		CE73CDF92C30567D00DED330 /* Duolar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duolar.swift; sourceTree = "<group>"; };
+		CE76B9022C6BAF59004ED32B /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		CE869D202C36D3850004F93F /* NamozHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamozHeaderView.swift; sourceTree = "<group>"; };
+		CE869D222C36E4730004F93F /* NamazHeaderTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamazHeaderTexts.swift; sourceTree = "<group>"; };
 		CEC4F6072C2AC90F0037BB5B /* Namoz vaqti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Namoz vaqti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC4F60A2C2AC90F0037BB5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC4F60C2C2AC90F0037BB5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEC4F60E2C2AC90F0037BB5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEC4F6112C2AC90F0037BB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC4F60E2C2AC90F0037BB5B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		CEC4F6132C2AC9110037BB5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC4F6162C2AC9110037BB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC4F6182C2AC9110037BB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEECB6F12C2EC1D400697A99 /* BomdodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BomdodViewController.swift; sourceTree = "<group>"; };
+		CEECB6F32C2EC34F00697A99 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		D8431BFDE3F4715E2C66D7A4 /* Pods-Namoz vaqti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namoz vaqti.release.xcconfig"; path = "Target Support Files/Pods-Namoz vaqti/Pods-Namoz vaqti.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +165,239 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69135691F467479E4A42FE32 /* Pods_Namoz_vaqti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23D5E444CEA3CFDC66F4A5FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD3DA6BA8862B0153DEA30A5 /* Pods-Namoz vaqti.debug.xcconfig */,
+				D8431BFDE3F4715E2C66D7A4 /* Pods-Namoz vaqti.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4CB76ABFB1F57D51E0F9EBC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD3F15745FF662A567C41B70 /* Pods_Namoz_vaqti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0381E32C2AD308007E8E3D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4F60A2C2AC90F0037BB5B /* AppDelegate.swift */,
+				CEC4F60C2C2AC90F0037BB5B /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CE0381E42C2AD331007E8E3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE0381EE2C2AD3E4007E8E3D /* General */,
+				CE0381ED2C2AD3CA007E8E3D /* Core */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE0381ED2C2AD3CA007E8E3D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4F60E2C2AC90F0037BB5B /* MainTabBarController.swift */,
+				CE0381E52C2AD35E007E8E3D /* TimesViewController.swift */,
+				CE0381E72C2AD380007E8E3D /* NamozViewController.swift */,
+				CE0381EF2C2AD8A0007E8E3D /* ListViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CE0381EE2C2AD3E4007E8E3D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				CE73CDE92C30536800DED330 /* ListGeneralControllers */,
+				CE73CDEA2C30538300DED330 /* NamozGeneralControllers */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		CE0381F12C2ADCFF007E8E3D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE0381F22C2ADD10007E8E3D /* UIColor+Extension.swift */,
+				CE73CDE72C304FE200DED330 /* UIImageView+Extension.swift */,
+				CE4316DD2C332713005812D3 /* UIImage+Ex.swift */,
+				CE76B9022C6BAF59004ED32B /* UIButton+Extension.swift */,
+				CE3C06CE2CA1BF1B009304FF /* TimeInterval+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE0381F42C2AEB77007E8E3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE0381FA2C2AF3F9007E8E3D /* Cell */,
+				CE0381FB2C2AF9C9007E8E3D /* TimeHeaderView.swift */,
+				CE869D202C36D3850004F93F /* NamozHeaderView.swift */,
+				CE33F1842C391DD600F1701F /* QuestionHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE0381F72C2AEDA0007E8E3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE0381F82C2AEDB1007E8E3D /* NamozTimes.swift */,
+				CEECB6F32C2EC34F00697A99 /* ListItem.swift */,
+				CE73CDD62C2FEF3500DED330 /* Constants.swift */,
+				CE73CDDC2C2FF67700DED330 /* NamazTimes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE0381FA2C2AF3F9007E8E3D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE0381F52C2AEB84007E8E3D /* TimeTableViewCell.swift */,
+				CE0382072C2B0968007E8E3D /* ListViewTableViewCell.swift */,
+				CE73CDE22C30493000DED330 /* NamozTextTableViewCell.swift */,
+				CE4316D52C32DF8B005812D3 /* TahoratTableViewCell.swift */,
+				CE33F1822C3915D100F1701F /* QuestionTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CE33F1802C38399400F1701F /* Duolar */ = {
+			isa = PBXGroup;
+			children = (
+				CE0382032C2B0917007E8E3D /* DuolarViewController.swift */,
+				CE33F17E2C38394700F1701F /* DuolarTextViewController.swift */,
+			);
+			path = Duolar;
+			sourceTree = "<group>";
+		};
+		CE33F1812C38399C00F1701F /* Suralar */ = {
+			isa = PBXGroup;
+			children = (
+				CE0382052C2B0924007E8E3D /* SuralarViewController.swift */,
+				CE4316D32C328D46005812D3 /* SuralarTextViewController.swift */,
+			);
+			path = Suralar;
+			sourceTree = "<group>";
+		};
+		CE3C06CB2CA13B66009304FF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C06CC2CA13B75009304FF /* TimesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE4316ED2C332AA4005812D3 /* NamazGifs */ = {
+			isa = PBXGroup;
+			children = (
+				CE4316E42C332989005812D3 /* 1b.gif */,
+				CE4316E72C332989005812D3 /* 2b.gif */,
+				CE4316E62C332989005812D3 /* 3b.gif */,
+				CE4316E82C332989005812D3 /* 4b.gif */,
+				CE4316E22C332989005812D3 /* 5b.gif */,
+				CE4316EB2C332989005812D3 /* 6b.gif */,
+				CE4316E52C332989005812D3 /* 7b.gif */,
+				CE4316E02C332989005812D3 /* 8b.gif */,
+				CE4316EA2C332989005812D3 /* 9b.gif */,
+				CE4316E32C332989005812D3 /* 10b.gif */,
+				CE4316E92C332989005812D3 /* 11b.gif */,
+				CE4316DF2C332989005812D3 /* 12b.gif */,
+				CE4316E12C332989005812D3 /* 13b.gif */,
+			);
+			path = NamazGifs;
+			sourceTree = "<group>";
+		};
+		CE4316EE2C332ABE005812D3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CE4316F02C332AE0005812D3 /* 0.mp3 */,
+				CE4316F22C332AE0005812D3 /* 1.mp3 */,
+				CE4316F42C332AE1005812D3 /* 2.mp3 */,
+				CE4316F32C332AE0005812D3 /* 3.mp3 */,
+				CE4316F12C332AE0005812D3 /* 4.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		CE4316EF2C332AC7005812D3 /* TahoratGifs */ = {
+			isa = PBXGroup;
+			children = (
+				CE4317022C332B00005812D3 /* 1.gif */,
+				CE4317012C332B00005812D3 /* 2.gif */,
+				CE4317002C332B00005812D3 /* 3.gif */,
+				CE4316FB2C332AFF005812D3 /* 4.gif */,
+				CE4316FC2C332AFF005812D3 /* 5.gif */,
+				CE4316FE2C332B00005812D3 /* 6.gif */,
+				CE4316FA2C332AFF005812D3 /* 7.gif */,
+				CE4316FF2C332B00005812D3 /* 8.gif */,
+				CE4316FD2C332AFF005812D3 /* 9.gif */,
+			);
+			path = TahoratGifs;
+			sourceTree = "<group>";
+		};
+		CE73CDD32C2FEF1800DED330 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CE73CDDE2C2FFB7600DED330 /* LocationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CE73CDE42C304D3E00DED330 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE869D222C36E4730004F93F /* NamazHeaderTexts.swift */,
+				CE73CDF72C30564B00DED330 /* NamozTexts.swift */,
+				CE73CDF92C30567D00DED330 /* Duolar.swift */,
+				CE73CDF52C30561300DED330 /* Suralar.swift */,
+				CE73CDF32C3055AE00DED330 /* TahoratTexts.swift */,
+				CE73CDE52C304D4E00DED330 /* Questions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE73CDE92C30536800DED330 /* ListGeneralControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE33F1812C38399C00F1701F /* Suralar */,
+				CE33F1802C38399400F1701F /* Duolar */,
+				CE0381E92C2AD38F007E8E3D /* TahoratViewController.swift */,
+				CE0381EB2C2AD3AD007E8E3D /* QuestionsViewController.swift */,
+			);
+			path = ListGeneralControllers;
+			sourceTree = "<group>";
+		};
+		CE73CDEA2C30538300DED330 /* NamozGeneralControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEECB6F12C2EC1D400697A99 /* BomdodViewController.swift */,
+				CE73CDEB2C3053DF00DED330 /* PeshinViewController.swift */,
+				CE73CDED2C3053FE00DED330 /* AsrViewController.swift */,
+				CE73CDEF2C30541700DED330 /* ShomViewController.swift */,
+				CE73CDF12C30542B00DED330 /* HuftonViewController.swift */,
+			);
+			path = NamozGeneralControllers;
+			sourceTree = "<group>";
+		};
 		CEC4F5FE2C2AC90E0037BB5B = {
 			isa = PBXGroup;
 			children = (
 				CEC4F6092C2AC90F0037BB5B /* Namoz vaqti */,
 				CEC4F6082C2AC90F0037BB5B /* Products */,
+				23D5E444CEA3CFDC66F4A5FC /* Pods */,
+				4CB76ABFB1F57D51E0F9EBC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +412,18 @@
 		CEC4F6092C2AC90F0037BB5B /* Namoz vaqti */ = {
 			isa = PBXGroup;
 			children = (
-				CEC4F60A2C2AC90F0037BB5B /* AppDelegate.swift */,
-				CEC4F60C2C2AC90F0037BB5B /* SceneDelegate.swift */,
-				CEC4F60E2C2AC90F0037BB5B /* ViewController.swift */,
-				CEC4F6102C2AC90F0037BB5B /* Main.storyboard */,
+				CE3C06CB2CA13B66009304FF /* ViewModels */,
+				CE73CDE42C304D3E00DED330 /* Resources */,
+				CE73CDD32C2FEF1800DED330 /* Service */,
+				CE0381F72C2AEDA0007E8E3D /* Model */,
+				CE0381F42C2AEB77007E8E3D /* Views */,
+				CE0381F12C2ADCFF007E8E3D /* Extension */,
+				CE0381E32C2AD308007E8E3D /* Application */,
+				CE0381E42C2AD331007E8E3D /* Controller */,
 				CEC4F6132C2AC9110037BB5B /* Assets.xcassets */,
+				CE4316EF2C332AC7005812D3 /* TahoratGifs */,
+				CE4316EE2C332ABE005812D3 /* Sounds */,
+				CE4316ED2C332AA4005812D3 /* NamazGifs */,
 				CEC4F6152C2AC9110037BB5B /* LaunchScreen.storyboard */,
 				CEC4F6182C2AC9110037BB5B /* Info.plist */,
 			);
@@ -74,9 +437,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC4F61B2C2AC9110037BB5B /* Build configuration list for PBXNativeTarget "Namoz vaqti" */;
 			buildPhases = (
+				07946DC3970923079E880E0B /* [CP] Check Pods Manifest.lock */,
 				CEC4F6032C2AC90F0037BB5B /* Sources */,
 				CEC4F6042C2AC90F0037BB5B /* Frameworks */,
 				CEC4F6052C2AC90F0037BB5B /* Resources */,
+				3F0AFDE07C88A51A40DE52A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +490,135 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4317052C332B00005812D3 /* 5.gif in Resources */,
+				CE5FFADB2C34739D0058D69E /* 3b.gif in Resources */,
+				CE4316F52C332AE1005812D3 /* 0.mp3 in Resources */,
+				CE4316F72C332AE1005812D3 /* 1.mp3 in Resources */,
+				CE5FFADC2C3473AD0058D69E /* 6b.gif in Resources */,
+				CE5FFAE52C3473AD0058D69E /* 4b.gif in Resources */,
+				CE4316F62C332AE1005812D3 /* 4.mp3 in Resources */,
+				CE5FFADF2C3473AD0058D69E /* 2b.gif in Resources */,
+				CE5FFAE02C3473AD0058D69E /* 1b.gif in Resources */,
+				CE5FFAE42C3473AD0058D69E /* 12b.gif in Resources */,
+				CE4317072C332B00005812D3 /* 6.gif in Resources */,
+				CE5FFAE22C3473AD0058D69E /* 5b.gif in Resources */,
 				CEC4F6172C2AC9110037BB5B /* LaunchScreen.storyboard in Resources */,
+				CE5FFAE32C3473AD0058D69E /* 11b.gif in Resources */,
+				CE4317062C332B00005812D3 /* 9.gif in Resources */,
+				CE5FFAE62C3473AD0058D69E /* 7b.gif in Resources */,
+				CE4316F92C332AE1005812D3 /* 2.mp3 in Resources */,
+				CE4317092C332B00005812D3 /* 3.gif in Resources */,
+				CE4317032C332B00005812D3 /* 7.gif in Resources */,
+				CE43170A2C332B00005812D3 /* 2.gif in Resources */,
+				CE4317042C332B00005812D3 /* 4.gif in Resources */,
+				CE4317082C332B00005812D3 /* 8.gif in Resources */,
+				CE43170B2C332B00005812D3 /* 1.gif in Resources */,
+				CE4316F82C332AE1005812D3 /* 3.mp3 in Resources */,
+				CE5FFAE12C3473AD0058D69E /* 10b.gif in Resources */,
+				CE5FFAE72C3473AD0058D69E /* 8b.gif in Resources */,
+				CE5FFADE2C3473AD0058D69E /* 13b.gif in Resources */,
+				CE5FFADD2C3473AD0058D69E /* 9b.gif in Resources */,
 				CEC4F6142C2AC9110037BB5B /* Assets.xcassets in Resources */,
-				CEC4F6122C2AC90F0037BB5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07946DC3970923079E880E0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Namoz vaqti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0AFDE07C88A51A40DE52A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Namoz vaqti/Pods-Namoz vaqti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Namoz vaqti/Pods-Namoz vaqti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Namoz vaqti/Pods-Namoz vaqti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEC4F6032C2AC90F0037BB5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC4F60F2C2AC90F0037BB5B /* ViewController.swift in Sources */,
+				CE4316D42C328D46005812D3 /* SuralarTextViewController.swift in Sources */,
+				CE73CDF82C30564B00DED330 /* NamozTexts.swift in Sources */,
+				CEC4F60F2C2AC90F0037BB5B /* MainTabBarController.swift in Sources */,
+				CE73CDD72C2FEF3500DED330 /* Constants.swift in Sources */,
+				CEECB6F22C2EC1D400697A99 /* BomdodViewController.swift in Sources */,
+				CE33F1852C391DD600F1701F /* QuestionHeaderView.swift in Sources */,
+				CE73CDF02C30541700DED330 /* ShomViewController.swift in Sources */,
+				CE73CDDF2C2FFB7600DED330 /* LocationService.swift in Sources */,
+				CE4316D62C32DF8B005812D3 /* TahoratTableViewCell.swift in Sources */,
+				CE0381EC2C2AD3AD007E8E3D /* QuestionsViewController.swift in Sources */,
+				CE0381E62C2AD35E007E8E3D /* TimesViewController.swift in Sources */,
+				CE0382082C2B0968007E8E3D /* ListViewTableViewCell.swift in Sources */,
+				CE3C06CD2CA13B75009304FF /* TimesViewModel.swift in Sources */,
+				CE0381F32C2ADD10007E8E3D /* UIColor+Extension.swift in Sources */,
+				CE73CDE32C30493100DED330 /* NamozTextTableViewCell.swift in Sources */,
+				CE73CDEE2C3053FE00DED330 /* AsrViewController.swift in Sources */,
+				CE0381F62C2AEB85007E8E3D /* TimeTableViewCell.swift in Sources */,
+				CE73CDF22C30542B00DED330 /* HuftonViewController.swift in Sources */,
+				CE73CDF62C30561300DED330 /* Suralar.swift in Sources */,
+				CE73CDE82C304FE200DED330 /* UIImageView+Extension.swift in Sources */,
+				CE0381EA2C2AD38F007E8E3D /* TahoratViewController.swift in Sources */,
+				CE76B9032C6BAF59004ED32B /* UIButton+Extension.swift in Sources */,
+				CE0381FC2C2AF9C9007E8E3D /* TimeHeaderView.swift in Sources */,
+				CE73CDEC2C3053DF00DED330 /* PeshinViewController.swift in Sources */,
+				CE0382042C2B0917007E8E3D /* DuolarViewController.swift in Sources */,
+				CE33F17F2C38394700F1701F /* DuolarTextViewController.swift in Sources */,
 				CEC4F60B2C2AC90F0037BB5B /* AppDelegate.swift in Sources */,
 				CEC4F60D2C2AC90F0037BB5B /* SceneDelegate.swift in Sources */,
+				CE33F1832C3915D100F1701F /* QuestionTableViewCell.swift in Sources */,
+				CEECB6F42C2EC34F00697A99 /* ListItem.swift in Sources */,
+				CE73CDF42C3055AE00DED330 /* TahoratTexts.swift in Sources */,
+				CE0381F02C2AD8A0007E8E3D /* ListViewController.swift in Sources */,
+				CE73CDE62C304D4E00DED330 /* Questions.swift in Sources */,
+				CE4316DE2C332713005812D3 /* UIImage+Ex.swift in Sources */,
+				CE3C06CF2CA1BF1B009304FF /* TimeInterval+.swift in Sources */,
+				CE73CDFA2C30567D00DED330 /* Duolar.swift in Sources */,
+				CE0382062C2B0924007E8E3D /* SuralarViewController.swift in Sources */,
+				CE869D212C36D3850004F93F /* NamozHeaderView.swift in Sources */,
+				CE869D232C36E4730004F93F /* NamazHeaderTexts.swift in Sources */,
+				CE0381E82C2AD380007E8E3D /* NamozViewController.swift in Sources */,
+				CE73CDDD2C2FF67700DED330 /* NamazTimes.swift in Sources */,
+				CE0381F92C2AEDB1007E8E3D /* NamozTimes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEC4F6102C2AC90F0037BB5B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEC4F6112C2AC90F0037BB5B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEC4F6152C2AC9110037BB5B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,19 +751,24 @@
 		};
 		CEC4F61C2C2AC9110037BB5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3DA6BA8862B0153DEA30A5 /* Pods-Namoz vaqti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XCR5WZR8RJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Namoz vaqti/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please, allow location access use our application.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,19 +784,24 @@
 		};
 		CEC4F61D2C2AC9110037BB5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8431BFDE3F4715E2C66D7A4 /* Pods-Namoz vaqti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XCR5WZR8RJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Namoz vaqti/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please, allow location access use our application.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

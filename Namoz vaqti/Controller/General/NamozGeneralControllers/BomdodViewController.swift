@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import ImageIO
 
-class NamozTextViewController: UIViewController {
+class BomdodViewController: UIViewController {
 
   private let tableView: UITableView = {
     $0.register(NamozTextTableViewCell.self,
@@ -25,6 +26,12 @@ class NamozTextViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     setupViews()
+    let headerView = NamozHeaderView(frame: CGRect(x: 0,
+                                                   y: 0,
+                                                   width: view.frame.width,
+                                                   height: 250))
+    tableView.tableHeaderView = headerView
+    headerView.descriptionLabel.text = NamazHeader.bomdod.description
   }
 
   private func setupViews() {
@@ -40,7 +47,7 @@ class NamozTextViewController: UIViewController {
   }
 }
 
-extension NamozTextViewController: UITableViewDelegate, UITableViewDataSource {
+extension BomdodViewController: UITableViewDelegate, UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return timeTitle.count
   }
@@ -49,7 +56,7 @@ extension NamozTextViewController: UITableViewDelegate, UITableViewDataSource {
     let cell = tableView.dequeueReusableCell(withIdentifier: NamozTextTableViewCell.reuseId, for: indexPath) as! NamozTextTableViewCell
     cell.configure(title: timeTitle[indexPath.row],
                    image: image[indexPath.row],
-                   description: Texts.bomdodTekst[indexPath.row])
+                   description: NamozTexts.BomdodText[indexPath.row])
     return cell
   }
 

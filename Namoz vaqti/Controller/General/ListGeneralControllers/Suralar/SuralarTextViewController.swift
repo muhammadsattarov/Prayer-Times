@@ -9,6 +9,14 @@ import UIKit
 
 class SuralarTextViewController: UIViewController {
 
+  lazy var backgroundImage: UIImageView = {
+    $0.translatesAutoresizingMaskIntoConstraints = false
+    $0.image = UIImage(named: "whiteFon2")
+    $0.contentMode = .scaleAspectFill
+    $0.clipsToBounds = true
+    return $0
+  }(UIImageView())
+
   private let scrollView: UIScrollView = {
     $0.translatesAutoresizingMaskIntoConstraints = false
     $0.alwaysBounceVertical = true
@@ -47,7 +55,7 @@ class SuralarTextViewController: UIViewController {
   }
 
   private func setupViews() {
-    view.backgroundColor = .systemBackground
+    view.addSubview(backgroundImage)
     view.addSubview(scrollView)
     scrollView.addSubview(containerView)
     containerView.addSubview(titleLabel)
@@ -61,6 +69,11 @@ class SuralarTextViewController: UIViewController {
 extension SuralarTextViewController {
   private func setConstrains() {
     NSLayoutConstraint.activate([
+      backgroundImage.topAnchor.constraint(equalTo: view.topAnchor),
+      backgroundImage.leftAnchor.constraint(equalTo: view.leftAnchor),
+      backgroundImage.rightAnchor.constraint(equalTo: view.rightAnchor),
+      backgroundImage.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+
       scrollView.topAnchor.constraint(equalTo: view.topAnchor),
       scrollView.leftAnchor.constraint(equalTo: view.leftAnchor),
       scrollView.rightAnchor.constraint(equalTo: view.rightAnchor),
